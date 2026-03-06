@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts - Get Pizza</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="icon" href="../img/logoo.png" />
+    <script src="../js/theme-init.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="py-7 fixed shadow-md w-full z-50">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex items-center gap-2">
+            <img class="h-12 object-cover" src="../img/LOGO.png" alt="logo" />
+          </div>
+
+          <!-- nav -->
+          <nav class="headerNav">
+            <ul>
+              <li><a href="../src/index.html">Home</a></li>
+              <li><a href="../src/about.html">About</a></li>
+              <li><a href="../src/menu.html">Menu</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="toggleMenu">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="transparent"></div>
+        </div>
+      </div>
+    </header>
+
+  <!-- location -->
+    <section class="location">
+      <div class="container">
+        <div class="location__wrapper">
+          <div class="aboutLocation__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121917.25197615966!2d121.25268344114342!3d14.054194641356915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5d2cd946c37d%3A0xd168f8100c3ed3af!2sSM%20City%20San%20Pablo!5e1!3m2!1sen!2sph!4v1771911881711!5m2!1sen!2sph"
+              width="1000"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contacts -->
+     <section id="contact" class="py-12 text-black/80 md:py-20 bg-secondary ">
+      <div class="container">
+        <h1 class="title text-center">GET IN TOUCH</h1>
+        <!-- wrapper -->
+         <div class="flex flex-col gap-10 mt-12 md:flex-row md:justify-center">
+          <!-- form -->
+           <form action="index.html" class=" dark:bg-gray-800 p-8 rounded-xl h-fit md:w-1/2">
+            <!-- fullname -->
+             <div class="flex gap-9">
+              <div>
+              <label>First Name</label>
+              <input type="text"/>
+             </div>
+              <div>
+                <label>Last Name</label>
+                <input type="text"/>
+              </div>
+            </div>
+            <!-- subject -->
+              <div>
+                <label>Subject</label>
+                <input type="text"/>
+              </div>
+             <!-- email -->
+              <div>
+              <label>Email</label>
+              <input type="text"/>
+            </div>
+             <!-- message -->
+              <div>
+              <label>Message</label>
+              <textarea rows="4" id=""></textarea>
+            </div>
+            <button class="btn btn--red w-full">SUBMIT FORM</button>
+           </form>
+         </div>
+      </div>
+     </section>
+
+     <!-- footer -->
+    <footer id="footer" class="bg-white pt-14 pb-14 text-center">
+      <div class="container md:w-220">
+        <!-- Logo -->
+        <div class="flex justify-center mb-10">
+          <img
+            src="../img/LOGO.png"
+            alt="Get Pizza Logo"
+            class="h-14 object-contain"
+          />
+        </div>
+        <div class="grid gap-10 md:grid-cols-3 text-center mb-10">
+          <div>
+            <h5 class="font-bold mb-3">ADDRESS</h5>
+            <p>570 8th Ave, New York, NY</p>
+            <p>10018 United States</p>
+          </div>
+          <div>
+            <h5 class="font-bold mb-3">BOOK A TABLE</h5>
+            <p>Dogfood Och Sliders Foodtruck.</p>
+            <p>Under Om Oss Kan Ni Låsa</p>
+          </div>
+          <div>
+            <h5 class="font-bold mb-3">OPENING HOURS</h5>
+            <p>Monday – Friday</p>
+            <p>10.00 AM – 11.00 PM</p>
+          </div>
+        </div>
+        <small class="text-primary font-medium"> 0123456789 </small>
+      </div>
+    </footer>
+
+    </body>
+</html>

@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - Get Pizza</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="icon" href="../img/logoo.png" />
+    <script src="../js/theme-init.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="py-7 fixed shadow-md w-full z-50">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex items-center gap-2">
+            <img class="h-12 object-cover" src="../img/LOGO.png" alt="logo" />
+          </div>
+
+          <!-- navigation -->
+          <nav class="headerNav">
+            <ul>
+              <li><a href="../src/index.html">Home</a></li>
+              <li><a href="../src/about.html">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="../src/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="toggleMenu">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="transparent"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- announcement -->
+    <section class="pt-25">
+      <div class="items-center grid grid-cols-1 text-red-800">
+        <p class="p-5 text-center">
+          This website provides information about our store. Online transactions
+          are coming soon.
+        </p>
+      </div>
+    </section>
+
+    <!-- hero -->
+    <section class="relative">
+      <img
+        src="../img/menubanner.jpg"
+        class="w-full h-[150] object-cover brightness-30"
+        alt="pizza banner"
+      />
+
+      <div
+        class="absolute inset-0 flex items-center md:items-center md:text-center md:justify-center"
+      >
+        <h1 class="text-white font-bold max-w-xl text-left px-20">
+          ALWAYS FRESH & READY TO BE SERVED.
+        </h1>
+      </div>
+    </section>
+
+    <!-- menu section -->
+    <section class="py-12 md:py-20 bg-tertiary text-white">
+      <div class="container md:w-220">
+
+        <!-- TABS -->
+        <div class="flex justify-center mb-10">
+          <div
+            class="bg-secondary rounded-full px-6 py-3 flex gap-6 text-blue-950 font-semibold">
+            <button class="eventTab active" id="tabs-1">PIZZA</button>
+            <button class="eventTab" id="tabs-2">BURGER</button>
+            <button class="eventTab" id="tabs-3">CHICKEN</button>
+            <button class="eventTab" id="tabs-4">DRINKS</button>
+            <button class="eventTab" id="tabs-5">CAKE</button>
+          </div>
+        </div>
+
+        <!-- contents -->
+        <div>
+          <!-- pizza -->
+          <div class="eventItem active" id="tabs-1-detail">
+            <div class="grid grid-cols-3 md:grid-cols-3 gap-2">
+
+              <!-- card 1 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center">
+                <div class="flex justify-center mb-6">
+                  <img src="../img/bbq pizza.png" class="w-28" />
+                </div>
+                <h6 class="">BBQ PIZZA</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+                <a href="#" class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]">Read more</a>
+              </div>
+
+              <!-- card 2 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center"><div class="flex justify-center mb-6">
+                  <img src="../img/bbq pizza.png" class="w-28" />
+                </div>
+                <h6 class="">BBQ PIZZA</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+                <a href="#"
+                  class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]" >Read more</a>
+              </div>
+
+              <!-- card 3 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center">
+                <div class="flex justify-center mb-6">
+                  <img src="../img/bbq pizza.png" class="w-28" />
+                </div>
+                <h6 class="">BBQ PIZZA</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+                <a href="#" class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]">Read more</a>
+              </div>
+
+              <!-- card 4 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center">
+                <div class="flex justify-center mb-6">
+                <img src="../img/bbq pizza.png" class="w-28" />
+                </div>
+                <h6 class="">BBQ PIZZA</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div><a
+                  href="#" class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]">Read more</a>
+              </div>
+
+              <!-- card 5 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center">
+                <div class="flex justify-center mb-6">
+                  <img src="../img/bbq pizza.png" class="w-28" />
+                </div>
+                <h6 class="">BBQ PIZZA</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+                <a
+                  href="#"
+                  class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]">Read more</a>
+              </div>
+
+              <!-- card 6 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center"
+              >
+                <div class="flex justify-center mb-6">
+                  <img src="../img/bbq pizza.png" class="w-28" />
+                </div>
+                <h6 class="">BBQ PIZZA</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+                <a
+                  href="#"
+                  class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]">
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- burger -->
+          <div class="eventItem" id="tabs-2-detail">
+            <div class="grid grid-cols-3 md:grid-cols-3 gap-2">
+              <!-- burger 1 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center"
+              >
+                <div class="flex justify-center mb-6">
+                  <img src="../img/CHEESE BURGER.png" class="w-28" />
+                </div>
+                <h6 class="">CHEESE BURGER</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+                <a href="#"
+                  class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]"> Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- chicken -->
+          <div class="eventItem" id="tabs-3-detail">
+            <div class="grid grid-cols-3 md:grid-cols-3 gap-2">
+              <!-- chicken 1 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center">
+                <div class="flex justify-center mb-6">
+                  <img src="../img/CHICKEN WITH BREAD.png" class="w-28" />
+                </div>
+                <h6 class="">FILLET WITH BREAD</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+                <a href="#" class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- drinks -->
+          <div class="eventItem" id="tabs-4-detail">
+            <div class="grid grid-cols-3 md:grid-cols-3 gap-2">
+              <!-- drinks 1 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center">
+                <div class="flex justify-center mb-6">
+                  <img src="../img/ORANGE DRINK.png" class="w-28" />
+                </div>
+                <h6 class="">ORANGE DRINKS</h6>
+                <p class="font-semibold">$25.00</p>
+                <div class="text-secondary text-lg my-2">★★★★★</div><a
+                  href="#" class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- cake -->
+          <div class="eventItem" id="tabs-5-detail">
+            <div class="grid grid-cols-3 md:grid-cols-3 gap-2">
+              <!-- cake 1 -->
+              <div
+                class="md:border md:border-white/30 rounded-xl p-6 text-center"
+              >
+                <div class="flex justify-center mb-6">
+                  <img src="../img/MUFFIN-CAKE.png" class="w-28" />
+                </div>
+
+                <h6 class="">MUFFIN CAKE</h6>
+
+                <p class="font-semibold">$25.00</p>
+
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-3 border border-primary px-3 py-2 rounded-lg text-[12px]"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lets connect -->
+    <section
+      id="contact"
+      class="pt-16 pb-16 md:pb-0 bg-primary text-white overflow-hidden"
+    >
+      <div class="container">
+        <div class="flex justify-center md:items-center">
+          <div class="">
+            <img
+              src="../img/chef.png"
+              alt="chef pointing"
+              class="max-h-72 object-contain hidden md:block"
+            />
+          </div>
+
+          <!-- CTA content -->
+          <div class="text-center md:text-left">
+            <h3 class="uppercase font-bold mb-2">LET'S CONNECT</h3>
+
+            <p class="text-white/90 mb-6">
+              and get a 10% off bill offers and invites
+            </p>
+            <!-- Form -->
+            <form action="index.html">
+              <div class="flex bg-white rounded-md overflow-hidden max-w-md">
+                <input
+                  type="text"
+                  placeholder="YOUR EMAIL ADDRESS"
+                  class="flex-1 px-4 py-3 text-sm text-black outline-none"
+                />
+
+                <button
+                  class="bg-secondary px-6 text-sm font-semibold text-black"
+                >
+                  SUBSCRIBE
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-white pt-14 pb-14 text-center">
+      <div class="container md:w-220">
+        <div class="flex justify-center mb-10">
+          <img src="../img/LOGO.png" class="h-14" />
+        </div>
+
+        <div class="grid gap-10 md:grid-cols-3 mb-10">
+          <div>
+            <h5 class="font-bold mb-3">ADDRESS</h5>
+            <p>570 8th Ave, New York, NY</p>
+            <p>10018 United States</p>
+          </div>
+
+          <div>
+            <h5 class="font-bold mb-3">BOOK A TABLE</h5>
+            <p>Dogfood Och Sliders Foodtruck.</p>
+            <p>Under Om Oss Kan Ni Låsa</p>
+          </div>
+
+          <div>
+            <h5 class="font-bold mb-3">OPENING HOURS</h5>
+            <p>Monday – Friday</p>
+            <p>10.00 AM – 11.00 PM</p>
+          </div>
+        </div>
+
+        <small class="text-primary font-medium">0123456789</small>
+      </div>
+    </footer>
+
+    <script src="../js/toggle-menu.js"></script>
+    <script src="../js/mode.js"></script>
+    <script src="../js/tab.js"></script>
+  </body>
+</html>
